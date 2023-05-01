@@ -4,25 +4,29 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development', // Sets the build mode
   output: {
-    clean: true // delete all dist files on build creation
-
+    clean: true, // delete all dist files on build creation
   },
   module: {
     rules: [
-      { // Handle all html files to run them with html-loader
+      {
+        // Handle all html files to run them with html-loader
         test: /\.html$/,
         loader: 'html-loader',
         options: {
-          sources: false
-        }
-      }
-    ]
+          sources: false,
+        },
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
   },
   optimization: {},
   plugins: [
     new HtmlWebPackPlugin({
       title: 'Basic webpack setup',
-      filename: 'index.html'
-    })
-  ]
-}
+      filename: 'index.html',
+    }),
+  ],
+};
