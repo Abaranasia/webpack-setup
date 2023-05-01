@@ -21,3 +21,4 @@
 
 ### loading files
 10. Install file-loader package to allow loading assets like images: ```npm install file-loader --save-dev```
+11. install copy-webpack plugin to copy static asset files to dist folder when building the app: ```npm install copy-webpack-plugin --save-dev```
