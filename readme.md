@@ -13,4 +13,7 @@
 #### Webpack Server
 7. Install **webpack-dev-server** to serve the app. The create the "start" entry in **package.json**: ```npm i webpack-dev-server -D```
 
-
+#### CSS dynamic load
+8. install **style-loader** and **css-loader** to load and understand dynamically css styles:
+ 1. ```npm install --save-dev style-loader```
+ 2. ```npm install --save-dev css-loader```
