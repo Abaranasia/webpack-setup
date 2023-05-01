@@ -16,8 +16,8 @@ The goal of this repo is to include the basic setup and configurations for a sma
 
 ### CSS dynamic load
 8. install **style-loader** and **css-loader** to load and understand dynamically css styles:
-  a. ```npm install --save-dev style-loader```
-  b. ```npm install --save-dev css-loader```
+ - ```npm install --save-dev style-loader```
+ - ```npm install --save-dev css-loader```
 9. Install **mini-css-extract-plugin** to handle global css styles:  ```npm install --save-dev mini-css-extract-plugin```
 
 ### Loading files
