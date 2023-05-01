@@ -17,3 +17,4 @@
 8. install **style-loader** and **css-loader** to load and understand dynamically css styles:
  1. ```npm install --save-dev style-loader```
  2. ```npm install --save-dev css-loader```
+9. Install **mini-css-extract-plugin** to handle global css styles:  ```npm install --save-dev mini-css-extract-plugin```
