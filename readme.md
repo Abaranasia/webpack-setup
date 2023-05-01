@@ -1,9 +1,9 @@
 ## Creating a basic webpack setup
 
-### steps to follow
-1. ```npm init - y``` // to create a package.json config file
-2. ```npm install webpack webpack-cli --save-dev``` // Installs webpack basic files and modules
+### Steps to follow
+1. Create a **package.json** config file: ```npm init - y``` 
+2. Install **webpack** and **webpack-cli** basic files and modules: ```npm install webpack webpack-cli --save-dev```
 3. Create basic files structure under src folder: index.html, index.js...
 4. Create **webpack.config.js** to inclide build mode (development, production, ...)
-5. ```npm install html-loader --save-dev``` // Creates an html file loader and exports HTML as string. HTML is minimized when the compiler demands.
-6. ```npm install html-webpack-plugin --save-dev``` // simplifies creation of HTML files to serve your webpack bundles. It includes all your webpack bundles in the body using script tags.
+5. Install **html-loader**. It creates an html file loader and exports HTML as string. HTML is minimized when the compiler demands. ```npm install html-loader --save-dev```
+6. Install **html-webpack-plugin**. It simplifies creation of HTML files to serve your webpack bundles. It includes all your webpack bundles in the body using script tags: ```npm install html-webpack-plugin --save-dev``` 
