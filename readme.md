@@ -18,3 +18,6 @@
  1. ```npm install --save-dev style-loader```
  2. ```npm install --save-dev css-loader```
 9. Install **mini-css-extract-plugin** to handle global css styles:  ```npm install --save-dev mini-css-extract-plugin```
+
+### loading files
+10. Install file-loader package to allow loading assets like images: ```npm install file-loader --save-dev```
