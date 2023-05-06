@@ -27,3 +27,9 @@ The goal of this repo is to include the basic setup and configurations for a sma
 ### Prod optimizers
 12. Install CSS minizimer for production: ```npm install css-minimizer-webpack-plugin --save-dev```
 13. Install Javascript minizimer for production: ```npm install terser-webpack-plugin --save-dev```
+
+### Babel
+14. Install Babel to enhance retro-compatibility by automatically translate modern code into highest compatobility one: 
+```npm install --save-dev babel-loader @babel/core```
+15. Set the basic configuration in Prod webpack config file
+16. Create babel.config.json configuration file by first installing preset-env: ```npm install @babel/preset-env --save-dev```
