@@ -37,6 +37,17 @@ module.exports = {
         test: /\.(png|jpe?g|gif)$/,
         loader: 'file-loader',
       },
+      {
+        // Babel basic config
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
     ],
   },
   optimization: {
