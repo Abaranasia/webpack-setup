@@ -22,4 +22,8 @@ The goal of this repo is to include the basic setup and configurations for a sma
 
 ### Loading files
 10. Install file-loader package to allow loading assets like images: ```npm install file-loader --save-dev```
-11. install copy-webpack plugin to copy static asset files to dist folder when building the app: ```npm install copy-webpack-plugin --save-dev```
+11. Install copy-webpack plugin to copy static asset files to dist folder when building the app: ```npm install copy-webpack-plugin --save-dev```
+
+### Prod optimizers
+12. Install CSS minizimer for production: ```npm install css-minimizer-webpack-plugin --save-dev```
+13. Install Javascript minizimer for production: ```npm install terser-webpack-plugin --save-dev```
